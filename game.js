@@ -68,6 +68,9 @@ function checkPattern(){
         var blooper = new Audio("sounds/wrong.mp3");
         blooper.play()
         screenFlash();
+        setTimeout((current) => {
+            flashAnim(current)
+        },700,gamePattern[currentIndex] );
 
         reset();  
     }
