@@ -71,6 +71,9 @@ function checkPattern(){
         setTimeout((current) => {
             flashAnim(current)
         },700,gamePattern[currentIndex] );
+        setTimeout((current) => {
+            flashAnim(current)
+        },1300,gamePattern[currentIndex] );
 
         reset();  
     }
