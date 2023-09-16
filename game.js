@@ -123,7 +123,7 @@ function playSequence(){
         setTimeout((current)=>{
             flashAnim(current);
             makeSound(current);
-            if (i = gamePattern.length - 1) isPlaySeq = false;
+            if (i === gamePattern.length - 1) isPlaySeq = false;
         },900*i, gamePattern[i] );
     }
 };
