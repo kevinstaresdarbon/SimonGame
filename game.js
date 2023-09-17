@@ -42,7 +42,7 @@ function makeSound(colour){
 function reset(){
 
     level = 0;
-    $("#level-title").text("Game Over! Press Any Key to Restart");
+    $("#level-title").text("Game Over! Press Any Key to Restart Phil!!");
     inProgress=false;
     userClickedPattern=[];
     gamePattern=[];
